@@ -1,0 +1,47 @@
+@import "colors.css";
+@import "layout.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'LINESeedKR-Rg';
+}
+
+
+
+
+
+@layer base {
+  @font-face {
+    font-family: 'LINESeedKR-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/wizfile/font/LINESeedKR-Rg.woff') format('woff');
+    font-style: normal;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  caption {
+    @apply text-sm font-bold ;
+  }
+
+
+
+
+}

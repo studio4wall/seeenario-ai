@@ -1,0 +1,25 @@
+body {
+    --foreground : #000000;
+    --background : #ececec;
+
+    --primary : #5cc7ab;
+    --primary-hover : #1d70de;
+    --background-hover : #f0f0f0;
+    --background-accent : #FFFFFF;
+    --container : #FFFFFF;
+
+    --border-color : #444444;
+}
+
+[data-theme="dark"] body {
+    --foreground : #FFFFFF;
+    --background : #202022;
+
+    --primary-hover : #1d70de;
+    --background-hover : #444444;
+    --background-accent : #1A1A1A;
+    --container : #444444;
+
+    --border-color : #444444;
+}
+
